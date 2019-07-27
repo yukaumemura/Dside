@@ -1,0 +1,19 @@
+クイックセットアップ - 以前にこのようなことをしたことがある場合
+または
+HTTPS
+SSH
+https://github.com/yukaumemura/Dside.git
+新しいファイルを作成する か 既存のファイルをアップロードすること から始めましょう 。すべてのリポジトリにREADME、 LICENSE、および.gitignoreを含めることをお勧めします 。
+
+…またはコマンドラインで新しいリポジトリを作成する
+echo "＃Dside" >> README.md
+git init
+git add README.md
+git commit -m "最初にコミット"
+gitリモートに追加元https://github.com/yukaumemura/Dside.git
+ gitプッシュ-u元のマスター
+…または既存のリポジトリをコマンドラインからプッシュする
+gitリモート追加オリジンhttps://github.com/yukaumemura/Dside.git
+ gitプッシュ-uオリジンマスター
+…または他のリポジトリからコードをインポートする
+Subversion、Mercurial、またはTFSプロジェクトのコードを使ってこのリポジトリを初期化できます。
